@@ -1,0 +1,23 @@
+
+[package]
+name = "idris-dev/karatsuba"
+version = "0.0.0"
+authors = ["Andre Videla"]
+description = "binary arithmetic for idris"
+
+
+
+[dev_dependencies]
+# snip
+"pheymann/specdris" = { git = "https://github.com/pheymann/specdris" }
+
+[targets.lib]
+path = "."
+mods = [ "Karatsuba" ]
+
+[[targets.test]]
+name = "test-karatsuba"
+path = "."
+main = "Tests.idr"
+
+

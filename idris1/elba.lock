@@ -1,0 +1,18 @@
+[[packages]]
+id = 'idris-dev/karatsuba@dir+/Users/zephyz/Research/Karatsuba'
+version = '0.0.0'
+
+[[packages.dependencies]]
+id = 'pheymann/specdris@git+https://github.com/pheymann/specdris#7d7721cb16f71a389145ce0f41562d889ae648a7'
+version = '0.1.0'
+
+[[packages]]
+id = 'pheymann/specdris@git+https://github.com/pheymann/specdris#7d7721cb16f71a389145ce0f41562d889ae648a7'
+version = '0.1.0'
+dependencies = []
+ []
+
+[[packages]]
+id = 'pheymann/specdris@git+https://github.com/pheymann/specdris#7d7721cb16f71a389145ce0f41562d889ae648a7'
+version = '0.1.0'
+dependencies = []
